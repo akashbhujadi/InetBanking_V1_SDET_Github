@@ -1,2 +1,3 @@
-this file is ben modified on remote github repository for pulling purpose nad see the changes in local system
+this file is ben modified on remote github repository for pulling purpose and see the changes in local system
 this changes are made in eclipse
+this change is made in github for pulling project in eclipse
