@@ -10,7 +10,6 @@
       <class name="com.InetBankig.TestCases.TC_LogIn_003">
         <methods>
           <include name="TC_003"/>
-          <include name="tearDown"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- com.InetBankig.TestCases.TC_LogIn_003 -->

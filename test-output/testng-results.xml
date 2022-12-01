@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-27T14:24:06 IST" name="Suite" finished-at="2022-11-27T14:24:22 IST" duration-ms="16829">
+  <suite started-at="2022-12-01T18:37:46 IST" name="Suite" finished-at="2022-12-01T18:38:15 IST" duration-ms="28185">
     <groups>
       <group name="regression">
-        <method signature="TC_LogIn_003.TC_003()[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@5656be13]" name="TC_003" class="com.InetBankig.TestCases.TC_LogIn_003"/>
+        <method signature="TC_LogIn_003.TC_003()[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@59474f18]" name="TC_003" class="com.InetBankig.TestCases.TC_LogIn_003"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2022-11-27T14:24:06 IST" name="TC_LogIn_001" finished-at="2022-11-27T14:24:22 IST" duration-ms="16829">
+    <test started-at="2022-12-01T18:37:46 IST" name="TC_LogIn_001" finished-at="2022-12-01T18:38:15 IST" duration-ms="28185">
       <class name="com.InetBankig.TestCases.TC_LogIn_003">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@5656be13]" started-at="2022-11-27T14:24:06 IST" name="launchBrowser" finished-at="2022-11-27T14:24:14 IST" duration-ms="7937" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@59474f18]" started-at="2022-12-01T18:37:47 IST" name="launchBrowser" finished-at="2022-12-01T18:37:54 IST" duration-ms="7096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,83 +21,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="TC_003()[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@5656be13]" started-at="2022-11-27T14:24:14 IST" name="TC_003" finished-at="2022-11-27T14:24:21 IST" duration-ms="7012" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="addcustomerpage.php">...</a> is not clickable at point (120, 399). Other element would receive the click: <iframe id="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" name="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" title="3rd party ad content" width="" height="" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" allow="autoplay" data-load-complete="true" data-google-container-id="1" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;"></iframe>
-  (Session info: chrome=107.0.5304.121)
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [961404c831c2c9718d83fc66c69dff03, clickElement {id=69c060c7-bd13-4eb2-aa63-ad50d8804352}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sai\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58262/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (961404c831c2c9718d83fc66c69dff03)] -> xpath: //a[normalize-space()='New Customer']]
-Session ID: 961404c831c2c9718d83fc66c69dff03]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="addcustomerpage.php">...</a> is not clickable at point (120, 399). Other element would receive the click: <iframe id="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" name="google_ads_iframe_/24132379/INTERSTITIAL_DemoGuru99_0" title="3rd party ad content" width="" height="" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" allow="autoplay" data-load-complete="true" data-google-container-id="1" style="border: 0px !important; vertical-align: bottom !important; width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; visibility: visible !important; z-index: auto !important;"></iframe>
-  (Session info: chrome=107.0.5304.121)
-Build info: version: '4.6.0', revision: '79f1c02ae20'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [961404c831c2c9718d83fc66c69dff03, clickElement {id=69c060c7-bd13-4eb2-aa63-ad50d8804352}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.121, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sai\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:58262}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58262/devtoo..., se:cdpVersion: 107.0.5304.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (961404c831c2c9718d83fc66c69dff03)] -> xpath: //a[normalize-space()='New Customer']]
-Session ID: 961404c831c2c9718d83fc66c69dff03
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
-at com.InetBankig.POM.HomePage.newCustomer(HomePage.java:75)
-at com.InetBankig.TestCases.TC_LogIn_003.TC_003(TC_LogIn_003.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="TC_003()[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@59474f18]" started-at="2022-12-01T18:37:54 IST" name="TC_003" finished-at="2022-12-01T18:38:15 IST" duration-ms="20262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.InetBankig.TestCases.TC_LogIn_003@5656be13]" started-at="2022-11-27T14:24:22 IST" name="tearDown" finished-at="2022-11-27T14:24:22 IST" duration-ms="604" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.InetBankig.TestCases.TC_LogIn_003 -->
     </test> <!-- TC_LogIn_001 -->
   </suite> <!-- Suite -->

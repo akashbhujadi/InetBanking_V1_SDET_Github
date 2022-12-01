@@ -16,6 +16,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.sikuli.script.FindFailed;
+import org.sikuli.script.Pattern;
+import org.sikuli.script.Screen;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -86,6 +89,20 @@ public class BaseClass {
 	  }
 		
 	
-	
+	public static void adblocker() throws FindFailed
+	{
+		Screen ss=new Screen();
+		try
+		{
+			Pattern closeButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\sikuli\\close.png");
+			ss.click(closeButton);
+		}
+		catch(Exception e)
+		{
+			Pattern crosButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\sikuli\\cross.png");
+			ss.click(crosButton);
+			
+		}
+	}
 	
 }

@@ -9,7 +9,7 @@
 	<test name="TC_LogIn_001">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			 <class name="com.InetBankig.TestCases.TC_LogIn_001" />
+			<class name="com.InetBankig.TestCases.TC_LogIn_001" />
 			<class name="com.InetBankig.TestCases.TC_LogIn_002" />
 			<class name="com.InetBankig.TestCases.TC_LogIn_003" />
 

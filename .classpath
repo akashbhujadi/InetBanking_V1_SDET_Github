@@ -24,5 +24,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/Selenium/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/sikuli/sikulix.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/sikuli/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/sikuli/sikulixsetup-1.1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium/sikuli/sikulixsetup-1.1.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
