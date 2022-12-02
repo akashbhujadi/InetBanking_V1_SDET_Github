@@ -13,7 +13,7 @@ public class DataProviderUtil {
 	
 	public static Object[][] getExcelData(String workbookName , String sheetName) throws Exception
 	{
-		File excelFile =new File("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\src\\test\\java\\com\\InetBankig\\TestData\\"+workbookName+".xlsx");
+		File excelFile =new File("C:\\Users\\sai\\eclipse-workspace\\InetBanking_V1_SDET_Github\\src\\test\\java\\com\\InetBankig\\TestData\\"+workbookName+".xlsx");
 		FileInputStream fis=new FileInputStream(excelFile);
 		XSSFWorkbook workbook=new XSSFWorkbook(fis);
 		XSSFSheet sheet=workbook.getSheet(sheetName);

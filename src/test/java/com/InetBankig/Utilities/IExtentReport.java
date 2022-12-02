@@ -96,7 +96,7 @@ public class IExtentReport extends BaseClass  implements ITestListener{
 		 //File file=new File("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\Screenshots\\"+imgName+"="+ssFolder);
 			//file.mkdir();
 			
-		String path="C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\Screenshots\\"+imgName+"\\"+imgName+"="+ssFolder+".png"; 
+		String path="C:\\Users\\sai\\eclipse-workspace\\InetBanking_V1_SDET_Github\\Screenshots\\"+imgName+"\\"+imgName+"="+ssFolder+".png"; 
 		
 		
 		File file=((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);			//taking the screenshot

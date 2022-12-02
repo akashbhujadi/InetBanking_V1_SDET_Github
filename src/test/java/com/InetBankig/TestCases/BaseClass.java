@@ -94,12 +94,12 @@ public class BaseClass {
 		Screen ss=new Screen();
 		try
 		{
-			Pattern closeButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\sikuli\\close.png");
+			Pattern closeButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\InetBanking_V1_SDET_Github\\sikuli\\close.png");
 			ss.click(closeButton);
 		}
 		catch(Exception e)
 		{
-			Pattern crosButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\Inetbanking_V1_SDET\\sikuli\\cross.png");
+			Pattern crosButton=new Pattern("C:\\Users\\sai\\eclipse-workspace\\InetBanking_V1_SDET_Github\\sikuli\\cross.png");
 			ss.click(crosButton);
 			
 		}
